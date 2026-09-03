@@ -5,6 +5,7 @@
     'summary': 'Manage bikes for rental operations',
     'depends': ['base'],
     'data': [
+       'security/bike_security.xml',
         'security/ir.model.access.csv',
         'views/bike_views.xml',
     ],
