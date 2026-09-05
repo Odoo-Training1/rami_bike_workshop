@@ -18,7 +18,4 @@ class Bike(models.Model):
     daily_rental_price = fields.Float(string='Daily Rental Price')
     wheel_size = fields.Float(string='Wheel Size (inches)')
 
-    _name_unique = models.Constraint(
-    'UNIQUE(name)',
-    'The bike name or code must be unique! Please choose another one.'
-)
+   
